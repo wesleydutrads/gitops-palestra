@@ -12,7 +12,7 @@ server:
       alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:564008997955:certificate/dd42f6cc-811e-4f3e-a395-68f4d57edf9c
       alb.ingress.kubernetes.io/ssl-redirect: "443"
     ingressClassName: alb
-    hostname: argocd.wesleydutra.online
+    hostname: argocd.arcanjoconsultoria.com.br
 
 controller:
   replicas: 1

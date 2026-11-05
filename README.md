@@ -58,7 +58,7 @@ kubectl apply -f k8s/alb/alb-controller.yaml
 kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
 ```
 
-Abra no navegador: `https://argocd.wesleydutra.online`
+Abra no navegador: `https://argocd.arcanjoconsultoria.com.br`
 
 ### 5. Limpeza
 

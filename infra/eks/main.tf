@@ -97,7 +97,7 @@ module "eks" {
     external-dns   = {
       most_recent = true
       configuration_values = jsonencode({
-        domainFilters = ["wesleydutra.online"] # ajuste para seu domínio
+        domainFilters = ["arcanjoconsultoria.com.br"] # ajuste para seu domínio
         txtOwnerId  = local.name
       })
       pod_identity_association = [
